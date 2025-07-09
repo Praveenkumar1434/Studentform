@@ -20,7 +20,7 @@ A simple and responsive web-based **Student Form** built using **HTML**, **CSS**
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ---
 
