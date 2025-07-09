@@ -167,7 +167,7 @@
         function addStudent(event) {
             event.preventDefault();
 
-            // Get values
+            
             const name = document.getElementById('name').value;
             const age = document.getElementById('age').value;
             const gender = document.querySelector('input[name="gender"]:checked').value;
@@ -177,7 +177,7 @@
             const table = document.getElementById("dataTable");
             const tbody = table.querySelector('tbody');
 
-            // Create new row
+            
             const newRow = document.createElement("tr");
             newRow.innerHTML = `
                <td>${name}</td>
@@ -190,7 +190,7 @@
 
             tbody.appendChild(newRow);
 
-            // Show the table after first entry
+            
             table.style.display = "table";
 
 
