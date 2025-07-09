@@ -118,10 +118,10 @@
     <h1>STUDENT FORM</h1>
     <form id="studentform" onsubmit="addStudent(event)">
         <label>Name: </label>
-        <input type="text" placeholder="Enter the name" id="name">
+        <input type="text" placeholder="Enter the name" id="name" required>
 
         <label>Age: </label>
-        <input type="number" id="age" placeholder="Enter the age">
+        <input type="number" id="age" placeholder="Enter the age" required>
 
         <label>Gender: </label>
         <div class="gender__group">
@@ -143,7 +143,7 @@
         </select>
 
         <label>Email:</label>
-        <input type="email" id="email" placeholder="Enter the Email">
+        <input type="email" id="email" placeholder="Enter the Email" required>
 
         <button type="submit">Save</button>
 
